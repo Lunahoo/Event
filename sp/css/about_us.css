@@ -1,0 +1,30 @@
+section{width:100%;}
+section ul{width:100%;}
+section li .banner{width:100%;height:240px;}
+section li .banner img{width:100%;height:100%;}
+section li .container{width:1200px;margin:0 auto;}
+section li:nth-of-type(-n+2) .container{height:621px;}
+section li:nth-of-type(3) .container{height:840px;}
+section li:nth-of-type(4) .container{height:1340px;}
+section li .container .left{width:155px;float:left;margin-top:57px;}
+section li .container .left p{width:80px;height:30px;line-height:30px;margin-left:75px;text-align:right;font-size:18px;color:#333;padding-bottom:7px;cursor:pointer;}
+section li .container .left p a{display:block;}     
+.container .left_active{width:155px!important;height:30px;line-height:30px;padding-bottom:7px;font-size:36px!important;font-weight:bold;color:#333;/*text-decoration:underline;*/border-bottom:solid 4px #666464;margin-bottom:10px;}
+section li .container .right{float:left;margin-top:62px;color:#333;}
+section li .container .right p{font-size:14px;}
+section li:nth-of-type(1) .container .right{margin-left:287px;text-indent:27px;}
+section li:nth-of-type(2) .container .right{margin-left:300px;width:706px;}
+section li:first-of-type .container .right p{line-height:45px;width:754px;}
+section li:nth-of-type(2) .container h4{font-size:14px;margin-bottom:16px;text-indent:32px;font-weight:bold;}
+section li:nth-of-type(2) .container .right p{text-indent:32px;margin-bottom:29px;}
+section li:nth-of-type(2) .container .right div{text-indent:32px;line-height:33px;}
+section li:nth-of-type(3) .right{width:790px;margin-left:255px;}
+section li:nth-of-type(3) .right .p1{margin-bottom:52px;text-indent:30px;}
+section li:nth-of-type(3) .right .p2{text-indent:30px;line-height:23px;margin-bottom:42px;}
+section li:nth-of-type(3) .right div{width:100%;text-align:center;}
+section li:nth-of-type(4) .right{width:732px;margin-left:313px;}
+section li:nth-of-type(4) .right .card{margin-bottom:77px;}
+section li:nth-of-type(4) .right .one span{margin-left:90px;}
+section li:nth-of-type(4) .right p{margin-left:120px;margin-top:14px;}
+section li:nth-of-type(4) .right .last{margin-left:120px;margin-top:44px;}
+section li .left p:hover{text-decoration:underline;}

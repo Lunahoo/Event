@@ -1,0 +1,21 @@
+.container{width:100%;overflow:hidden;background:#f4f4f4}
+.container_banner{width:100%;height:400px}
+.container_banner img{width:100%;height:100%}
+.introduction{width:1200px;overflow:hidden;margin:0 auto}
+.up{width:1200px;height:293px;background:url(../img/join_us3.png) no-repeat center;background-size:1200px 293px;margin-top:30px}
+.up h3{padding-top:60px;color:#636363;font-size:18px;margin-bottom:32px;margin-left:150px;color:#BF9D5B}
+.up p{font-size:14px;padding:0 150px;text-indent:28px;line-height:28px}
+.recruit{width:1200px;height:699px;background:url(../img/join_us2.png) no-repeat center;background-size:1200px 699px;margin-top:9px;margin-bottom:50px}
+.recruit h2{width:100%;height:70px;font-size:24px;line-height:70px;border-bottom:solid 1px #EEEEEE;color:#BF9D5B;text-align:center}
+.recruit .sort{padding:0 150px;margin-top:44px}
+.recruit .sort .sort_left,.sort_right{float:left}
+.a_color{color:#BF9D5B!important}
+.sort_left{width:300px}
+.sort_left li{text-align:right;font-size:18px;margin-bottom:31px;font-weight:bold;cursor:pointer;position:relative}
+.sort_left li p{position:absolute;right:-20px;top:-2px}
+.sort_left li p img{width:6px;height:8px}
+.sort_left span{display:block;width:72px;height:2px;float:right;margin-top:2px;border-bottom:solid 2px #BF9D5B}
+.sort_right{width:600px;height:580px;margin-top:-6px;position:relative}
+.sort_right li{width:560px;font-size:14px;margin-left:40px;display:none;position:absolute;left:0;top:0}
+.sort_right li p{line-height:28px;color:#636363}
+

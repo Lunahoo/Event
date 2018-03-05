@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+.case_banner {
+	width:100%;
+	height:400px;
+	background:url('../img/case_banner.jpg') no-repeat 50% 50%;
+	margin-bottom:95px;
+}
+.case_content {
+	width:1200px;
+	margin:0 auto;
+}
+.case_content .content_top{
+	width:1200px;
+	height:334px;
+	margin-bottom:25px;
+	border-bottom:1px solid #bfc0c0;
+}
+.content_top .content_top_a{
+	display:block;
+	float:left;
+	width:438px;
+	height:260px;
+} 
+.content_top .content_top_left {
+	width:700px;
+	height:261px;
+	float:left;
+	margin-left:62px;
+}
+.content_top .content_top_left .top_left_title{
+	font-size:31px;
+	font-weight:bold;
+	margin:18px 0 20px 0;
+}
+.content_top .content_top_left .top_left_title a{
+	display:block;
+	color:#329ac3;
+}
+
+.content_top .content_top_left .top_left_title a:hover{
+	color:#bf9d5b;
+}
+.content_top .content_top_left .top_left_content {
+	color:#666565;
+	letter-spacing:2px;
+	line-height:26px;
+	font-size:16px;
+}
+.content_top .content_top_left .top_left_content a:hover {
+	color:#bf9d5a;
+}
+/*按钮*/
+.content_top .content_top_left .case_btn {
+	width:700px;
+	height:70px;
+	position:relative;
+}
+.case_btn_href {
+	display:block;
+	width:100px;
+	height:40px;
+	position:absolute;
+	bottom:0;
+	right:0;
+	float:left;
+	line-height:40px;
+	text-align:center;
+	float:left;
+}
+.case_btn_href:hover {
+	color:#bf9d5a;
+}
+.case_btn_href>.case_btn_icon{
+	display: block;
+	width:20px;
+	height: 20px;
+	margin-top:10px;
+	margin-right:8px;
+	background: url('../img/case_center_icon_03.png') no-repeat;
+	background-size: cover;
+	float: right;
+}
+
+/*列表*/
+.case_list {
+	width:1200px;
+	height:811px;
+	border-bottom:1px solid #bfc0c0;
+}
+.content_list {
+	width:1200px;
+	height:153px;
+	margin-top:46px;
+}
+.content_list .a{
+	display:block;
+	float:left;
+	width:153px;
+	height:153px;
+}
+.content_list img {
+	
+}
+.list_right {
+	width:990px;
+	height:153px;
+	float:left;
+	margin-left:55px;
+	position:relative;
+}
+.list_right>.list_right_title a{
+	font-size:26px;
+	color:#319bc3;
+	margin-top:10px;
+	display:block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.content_list .list_right_title a:hover{
+	color:#bf9d5b;
+}
+.list_right>.list_right_text a{
+	font-size:14px;
+	color:#666464;
+	margin-top:20px;
+	line-height:24px;
+	text-indent:30px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+.list_right>.list_right_text a:hover {
+	color:#bf9d5a;
+}
+/*分页*/
+.page {
+    clear: both;
+    width:1200px;
+    height:100px;
+    /*border:1px solid red;*/
+    margin:80px 0 109px 0;
+}

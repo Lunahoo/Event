@@ -1,0 +1,157 @@
+/*头部*/
+.header{height:50px!important;border-bottom:solid 2px #329ac3;}
+
+/*内容*/
+/*人物介绍*/
+section{width:1200px;height:935px;margin:47px auto;}
+.person_intro{width:1200px;height:290px;}
+.person_intro div,ul{float:left;}
+.person_intro_photo{width:270px;height:290px;}
+.person_intro_photo img{width:100%;height:100%;}
+.person_intro ul{width:890px;height:290px;margin-left:40px;}
+.person_intro ul li{width:890px;height:auto;}
+.person_intro ul>li .text_indent{font-weight:bold;}
+.person_intro ul li:first-of-type{font-size:28px;color:#BF9D5B;margin-bottom:5px;}
+.person_intro ul li:nth-of-type(2){font-size:21px;margin-bottom:8px;}
+.person_intro ul li:nth-of-type(2) span{font-size:47px;}
+.person_intro ul li:nth-of-type(3){margin-bottom:25px;}
+.person_intro ul li:nth-of-type(3) img{width:175px;height:25px;} 
+.person_intro ul li:nth-of-type(3) span{margin-left:24px;font-size:21px;color:#BF9D5B;}
+.person_intro ul li:nth-of-type(4){background:url(../img/teacher_picture_wxh.png) no-repeat left top;}
+.person_intro ul li:nth-last-of-type(-n+5){height:18px;line-height:18px;margin-bottom:5px;text-indent:23px;}
+.person_intro ul li:nth-of-type(5){background:url(../img/teacher_picture_wxh.png) no-repeat left 24%;}
+.person_intro ul li:nth-of-type(6){background:url(../img/teacher_picture_wxh.png) no-repeat left 49%;}
+.person_intro ul li:nth-of-type(7){background:url(../img/teacher_picture_wxh.png) no-repeat left 73%;}
+.person_intro ul li:nth-of-type(8){background:url(../img/teacher_picture_wxh.png) no-repeat left bottom;}
+
+/*课程介绍*/
+.course_subpage_bottom {
+    margin:35px auto 55px auto;
+    width:1200px;
+    height:610px;
+}
+.course_subpage_bottom .subpage_bottom_left{
+    width:900px;
+    height:610px;
+    float:left;
+}
+.left_nav_content {
+    width:100%;
+    height:40px;
+    background:#5a5b5b;
+}
+.left_nav {
+    width:705px;
+    height:40px;
+    /* border:1px solid blue; */
+    margin:0 auto;
+    line-height:40px;
+    margin-left:95px;
+}
+.left_nav li {
+    float:left;
+    width:170px;
+    height:26px;
+    background:#fff;
+    line-height:26px;
+    border-radius:20px;
+    text-align:center;
+    margin:6px 3px;
+    cursor:pointer;
+    font-size:18px;
+}
+.left_content_show {
+    width:900px;
+    height:570px;
+    background:#f1f1f1;
+}
+.showPage{
+    display:block !important;
+}
+.bgBtn{
+    background:#329ac3 !important;
+    color:#fff !important;
+}
+.left_content_show li {
+    width:800px;
+    height:100%;
+    display:none;
+    margin:0 auto;
+}
+.hidePage_content {
+    margin-top:32px;
+}
+.hidePage_content p{
+    text-indent:31px;
+    margin-top:13px;
+    font-size:14px;
+    color:#221815;
+    line-height:23px;
+}
+/*同领域其他课程*/
+.subpage_bottom_right {
+    width:280px;
+    height:610px;
+    float:left;
+    margin-left:20px;
+}
+.bottom_right_title {
+    width:280px;
+    height:40px;
+    background:#329ac3;
+    float:left;
+    font-size:18px;
+    color:#fff;
+    line-height:40px;
+    text-indent:10px;
+    text-align:center;
+}
+.class_course {
+    margin:12px 0 0 0 !important;
+}
+.subpage_bottom_right .teacher_one {
+	width: 202px;
+	height:250px !important;
+	padding: 0 39px;
+    /* margin-top: 20px; */
+    /* border:1px solid red; */
+    float:left;
+}
+
+.subpage_bottom_right .teacher_one {
+    background: url(../img/teacher_round_box.png) no-repeat center;
+    position: relative;
+    display:block;
+    width:184px;
+    height:184px;
+}
+
+.subpage_bottom_right .teacher_one a {
+	width: 184px;
+	height: 184px;
+	display: block;
+	border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left:-92px;
+    margin-top:-92px;
+}
+
+.subpage_bottom_right img {
+	width: 198px;
+    height: 222px;
+}
+
+.subpage_bottom_right p {
+    font-size: 12px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform:translate(-50%);
+}
+
+.subpage_bottom_right p span {
+	font-size: 18px;
+}

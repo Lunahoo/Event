@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>案例详情</title>
+		<link href="css/base.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<style>
+			section{width:100%;height:auto;background:#EBEBEB;border-top:solid 2px #e01c2b;padding-bottom:54px;}
+			section .container{width:1200px;overflow:hidden;margin:0 auto;background:#fff;}
+			section .container h2{width:1200px;height:104px;line-height:103px;border-bottom:solid 1px #ebebeb;text-align:center;font-size:30px;}
+			section .container div{width:1200px;height:6400px;}
+			section .container div img{width:100%;height:100%;}
+			section .container p{width:60px;height:60px;cursor:pointer;float:right;font-size:14px;color:#333;margin-bottom:35px;border:none;margin-right:56px;text-align:center;}
+			section .container span{margin-top:10px;display:inline-block;} 
+		</style>
+	</head>
+	<body>
+		<!--头部-->
+		<header>
+        	<div class="header-center">
+            	<h1><a href="index.html"></a></h1>
+            	<div class="header-right">
+                	<i class="header-icon"></i>
+                	<span class="right-text">服务热线：</span>
+                	<div class="right-phone">021&nbsp;-&nbsp;5047&nbsp;7023</div>
+           	 	</div>
+        	</div>
+        	<div class="hr"></div>
+        	<ul class="head_bottom">
+				<li><a  href="index.html" style="-moz-user-select:-moz-none" onselectstart="return false">首页</a><p></p></li>
+				<li><a  href="about_us.html" style="-moz-user-select:-moz-none" onselectstart="return false">关于世品</a><p></p></li>
+				<li><a  href="Scope_of_business.html" style="-moz-user-select:-moz-none" onselectstart="return false">业务范围</a><p></p></li>
+				<li><a  href="brand_case.html" style="-moz-user-select:-moz-none" onselectstart="return false">品牌案例</a><p class="header_dis"></p></li>
+				<li><a  href="contact_us.html" class="header_active" style="-moz-user-select:-moz-none" onselectstart="return false">联系我们</a><p></p></li>
+			</ul>
+    	</header>
+		<!--头部结束-->
+		
+		<!--内容-->
+		<section>
+			<div class="container">
+				<h2>名校校长张江论坛</h2>
+				<div><img src="img/lt_zhangjiang.jpg"></div>
+				<p><img src="img/to_top.png"><br><span>返回顶部</span></p>
+			</div>
+		</section>
+		<!--内容结束-->
+		
+		<!--底部-->
+		<footer>
+	        <div class="footer-center">
+	            <div class="footer-logo"></div>
+	            <div class="footer-left">
+	                <p>地址：浦东新区张江高科技园区张江路368号</p>
+	                <p>电话：021&nbsp;-&nbsp;5047&nbsp;7023</p>
+	                <p>www.sapiensky.com</p>
+	            </div>
+	            <div class="footer-right"></div>
+	            <div class="footer-bread">
+	                <div class="bread">
+	                    <p>
+	                        <a href="index.html" style="-moz-user-select:-moz-none" onselectstart="return false">首页</a>
+	                        <a href="about_us.html" style="-moz-user-select:-moz-none" onselectstart="return false">关于世品</a>
+	                        <a href="Scope_of_business.html" style="-moz-user-select:-moz-none" onselectstart="return false">业务范围</a>
+	                        <a href="brand_case.html" style="-moz-user-select:-moz-none" onselectstart="return false">品牌案例</a>
+	                        <a href="contact_us.html" style="-moz-user-select:-moz-none" onselectstart="return false">联系我们</a>
+	                    </p>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="footer-bottom">
+	            <div class="bottom-center">
+	                <p>© 2017 上海世品文化传播 All Rights Reserved.</p>
+	            </div>
+	        </div>
+	    </footer>
+		<!--底部结束-->
+		<script src="js/jquery-1.8.2.min.js"></script>
+		<script>
+			$(function(){
+				$(".container p").click(function(){
+					$("body").animate({"scrollTop":0},500);
+				});
+			});
+			
+		</script>
+	</body>
+</html>

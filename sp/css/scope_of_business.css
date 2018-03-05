@@ -1,0 +1,21 @@
+section{width:100%;height:auto;}
+section .banner{width:100%;height:240px;}
+section ul li{width:100%;height:547px;padding-top:69px;}
+section .container{width:1190px;margin:0 auto;padding:0 5px;}
+section .left,.right{float:left;}
+section .left{margin-right:200px;}
+section  h2{width:241px;height:31px;font-size:30px;}
+section .left_img{width:380px;height:256px;margin-top:93px;}
+section .left_img img{width:100%;height:100%;}
+section .right .right_title{font-size:60px;letter-spacing:2px;margin-bottom:39px;}
+section .right .right_title span{display:block;margin-top:42px;}
+section .right p{width:610px;font-size:16px;line-height:36px;text-indent:35px;}
+section li:nth-of-type(2n){background:#f0f0f0;}
+section li:first-of-type h2{border-bottom:solid 3px #f2b2ca;}
+section li:first-of-type .right_title{color:#f2b2ca;}
+section li:nth-of-type(2) h2{border-bottom:solid 3px #748eea;}
+section li:nth-of-type(2) .right_title{color:#748eea;}
+section li:nth-of-type(3) h2{border-bottom:solid 3px #9666a0;}
+section li:nth-of-type(3) .right_title{color:#9666a0;}
+section li:nth-of-type(4) h2{border-bottom:solid 3px #7cbfdf;}
+section li:nth-of-type(4) .right_title{color:#7cbfdf;}

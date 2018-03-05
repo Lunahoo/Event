@@ -1,0 +1,20 @@
+section{width:100%;height:auto;background:#EBEBEB;padding-bottom:54px;}
+section .banner{width:100%;height:240px;}
+section .banner img{width:100%;height:100%;}
+section .container{width:1200px;height:auto;margin:0 auto;}
+section .container .title{width:599px;height:120px;margin:0 auto;}
+section .container .title li{height:120px;float:left;margin-right:5px;}
+section .container .title li:last-of-type{margin-right:0!important;}
+section .container .title li a{width:146px;text-align:center;margin-top:41px;font-size:18px;height:38px;line-height:38px;display:block;}
+section .container .title li:hover a{background:#de2534;color:#fff;border-radius:20px 20px;}
+.vr_active{background:#de2534;color:#fff;border-radius:20px 20px;}
+section .container .photo{width:100%;height:auto;}
+section .container .photo .website dl{overflow:hidden;}
+section .container .photo .website dl dd{width:380px;font-size:18px;float:left;margin-right:30px;margin-bottom:54px;}
+section .photo .website dd:nth-of-type(3),section .photo .website dd:nth-of-type(6),section .photo .website dd:last-of-type{margin-right:0!important;}
+section .container .photo .website dd img{width:380px;height:240px;} 
+section .container .photo .website dl dd div{width:100%;height:55px;line-height:55px;background:#fff;text-align:center;color:#333;float:left;}
+section .container .photo li:last-of-type img{width:1200px;margin-bottom:34px;}
+section .container li:first-of-type .btn{width:100%;text-align:center;margin-top:20px;margin-bottom:26px;}
+section .container .btn span{display:inline-block;width:45px;height:45px;line-height:45px;margin-left:9px;background:#fff;color:#333;text-align:center;cursor:pointer;}
+section .container .btn_active{background:#de2534!important;color:#fff!important;}

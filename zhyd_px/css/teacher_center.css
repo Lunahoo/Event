@@ -1,0 +1,170 @@
+/*背景图区*/
+section{width:100%;height:auto;}
+.wrap{width:100%;height:400px;background:url(../img/teacher_banner.jpg) no-repeat center;)}
+.wrap .container{width:1200px;height:400px;margin:0 auto;position:relative;}
+.wrap .search{width:436px;height:35px;border:solid 1px #dbdcdd;border-radius:50px 50px;position:absolute;top:287px;left:50%;background:rgba(255,255,255,.8);margin-left:-218px;box-shadow:0 0 0 5px rgba(255,255,255,.2);}
+.wrap .search input{width:100%;height:100%;background:url(../img/ss.png) no-repeat 95% center;color:#4c4948;border:none;border-radius:50px 50px;outline:none;font-size:16px;text-indent:12px;}
+
+/*讲师介绍区*/
+.course_tabs {
+    width:1200px;
+    height:45px;
+    background:#dbdcdd;
+    margin:28px auto 0 auto;
+}
+.course_tabs .tabs_drop{
+    width:898px;
+    height:45px;
+    margin:0 auto;
+    font-size:17px;
+}
+.course_tabs .tabs_drop a {
+    display:block;
+}
+/*下拉按钮*/
+.tabs_drop .drop_btn {
+    list-style:none;
+    position:relative;
+    float:left;
+    width:290px;
+    text-align:center;
+    margin:8px 4px 0 2px;
+    height:26px;
+    line-height:26px;
+}
+.drop_btn .btn_show{
+    background:#f5f6f6;
+    color:#221815;
+    border-radius:15px;
+}
+/*下拉隐藏二级菜单*/
+.tabs_drop ul li .drop_hide{
+    width:307px;
+    display:none;
+   padding:0 20px;
+    position: absolute; 
+    left: 10px; 
+    top: 26px;
+    background:rgba(0, 0, 0,0.5);
+    z-index:666;
+}
+.drop_hide a {
+    color:#fff;
+    float:left;
+    display:inline-block;
+    margin:10px;
+}
+.triangle_icon {
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #9f9fa0;
+    border-left: 10px solid transparent;
+    position: absolute;
+    right:20px;
+    top:9px;
+}
+.drop_btn .btn_show:hover {
+    background:#329ac3;
+    transition:all ease 1s;
+    color:#fff;
+    
+}
+.drop_btn .btn_show:hover .triangle_icon {
+    border-top: 10px solid #fff;
+}
+.tabs_drop ul li:hover .drop_hide{
+    display:block;
+     
+}
+
+/*讲师介绍区*/
+.card_list {
+    width:1200px;
+    height:1200px;
+    margin:67px auto;
+}
+#card {
+    display:block;
+    height:370px;
+    width:260px;
+    background:#f5f6f6;
+    float:left;
+    margin-right:53px;
+    margin-bottom:25px;
+    border-bottom:solid 1px #d7d7d7;
+}
+#card:hover{
+	box-shadow:0 0 10px 0 rgba(28,26,27,.6);
+	border-bottom: solid 1px #46a2c7;
+}
+#card:nth-of-type(4){
+	margin-right:0;
+}
+#card:nth-of-type(8){
+	margin-right:0;
+}
+#card:nth-of-type(12){
+	margin-right:0;
+}
+#card:last-of-type{
+	margin-right:0;
+}
+#card a img {
+    width:100%;
+    height:290px;
+}
+#card .card_content {
+    height:60px;
+    width:100%;
+    background:#f5f6f6;
+    position: relative;
+}
+#card .card_title {
+    margin-top:8px;
+    margin-left:13px;
+    font-size:18px;
+    color:#221815;
+}
+#card .card_subtitle{
+    font-size:12px;
+    margin-top:5px;
+    margin-left:13px;
+}
+#card .card_num {
+    font-size:12px;
+    margin-left:13px;
+    margin-top:2px;
+}
+#card .card_subtitle .subtitle:after {
+    content:"/";
+    margin:0 2px;
+}
+.card_num img {
+   width:52px;
+   height:9px;
+}
+.card_num span{
+	color:#BF9D5B;
+	margin-left:3px;
+}
+.card_look {
+    position: absolute;
+    right:0;
+    bottom:0;
+    color:#46a2c7;
+}
+.card_look:hover {
+    transition:all ease 0.5s;
+    color:#000;
+}
+.card_look:after {
+    content:">>>";
+}
+/*分页*/
+.page {
+    clear: both;
+    width:1200px;
+    height:50px;
+    margin:76px auto 111px auto;
+}
